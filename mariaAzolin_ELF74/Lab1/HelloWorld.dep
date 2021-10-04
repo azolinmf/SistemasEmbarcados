@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>5</fileVersion>
-    <fileChecksum>1202188672</fileChecksum>
+    <fileChecksum>3402378293</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
@@ -16,6 +16,8 @@
             <file>$PROJ_DIR$\Debug\Exe\HelloWorld.out</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\main.cpp</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C1294NC.icf</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
             <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
             <file>$TOOLKIT_DIR$\inc\cpp\ios</file>
@@ -95,7 +97,7 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 0 3 4 1 5 2 9</file>
+                    <file> 11 3 4 12 5 2 9</file>
                 </tool>
             </inputs>
         </file>
@@ -119,13 +121,16 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 34 20 14 25 16 58 38 24 21 12 48 52 11 53 35 17 30 42 59 18 60 22 36 56 37 15 33 19 44 39 40 61 23 26 41 46 43 45 49 47 54 28 29 50 13 27 32 51 55 31 57 74 64 75 66 69 65 76 70 68 67 62 77 63 71 72 73 7</file>
+                    <file> 36 22 16 27 18 60 40 26 23 14 50 54 13 55 37 19 32 44 61 20 62 24 38 58 39 17 35 21 46 41 42 63 25 28 43 48 45 47 51 49 56 30 31 52 15 29 34 53 57 33 59 76 66 77 68 71 67 78 72 70 69 64 79 65 73 74 75 7</file>
                 </tool>
             </inputs>
         </file>
         <forcedrebuild>
             <name>[MULTI_TOOL]</name>
             <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
         </forcedrebuild>
     </configuration>
     <configuration>
