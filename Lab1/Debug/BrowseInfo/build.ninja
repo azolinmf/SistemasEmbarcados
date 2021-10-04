@@ -24,18 +24,18 @@ rule PDBLINK
 
 
 #Build steps
-build C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
-  xclcommand = -source_file C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\main.cpp -xcl_file C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\main.xcl -macro_file C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\main.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
-  flags = C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\main.cpp -o C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --c++ --no_exceptions --no_rtti --predef_macros C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\main.tmp
-  rspfile_name = C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\main.xcl.rsp
+build C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\main.cpp -xcl_file C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\main.xcl -macro_file C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\main.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\main.cpp -o C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --c++ --no_exceptions --no_rtti --predef_macros C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\main.tmp
+  rspfile_name = C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\main.xcl.rsp
 
-build C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\main.pbi : INDEXER C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\main.xcl |  $
-C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\main.cpp
-  flags = -out=C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\main.pbi -f C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\main.xcl
+build C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\main.pbi : INDEXER C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\main.xcl |  $
+C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\main.cpp
+  flags = -out=C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\main.pbi -f C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\main.xcl
 
-build C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\HelloWorld.pbw : MAKEBROWSE C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\HelloWorld.pbd
-  flags = C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\HelloWorld.pbd -output C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\HelloWorld.pbw
+build C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\Lab1.pbw : MAKEBROWSE C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\Lab1.pbd
+  flags = C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\Lab1.pbd -output C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\Lab1.pbw
 
-build C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\HelloWorld.pbd : PDBLINK C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\main.pbi
-  flags = -M C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\HelloWorld.pbd C$:\Users\azoli\Documents\UTFPR\SistemasEmbarcados\Lab1\Debug\BrowseInfo\main.pbi
+build C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\Lab1.pbd : PDBLINK C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\main.pbi
+  flags = -M C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\Lab1.pbd C$:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\Debug\BrowseInfo\main.pbi
 

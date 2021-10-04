@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\settings\HelloWorld.Debug.general.xcl" --backend -f "C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\settings\HelloWorld.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\settings\Lab1.Debug.general.xcl" --backend -f "C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\settings\Lab1.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\settings\HelloWorld.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\settings\HelloWorld.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\settings\Lab1.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab1\settings\Lab1.Debug.driver.xcl" 
 }
