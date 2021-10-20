@@ -69,10 +69,8 @@ void delay(int time) {
   }
 }
 
- int
-main(void)
-{    
-    //port N = led
+void prepare(void) {
+  //port N = led
     SysCtlPeripheralEnable(SYSCTL_PERIPH_GPION);
     while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPION))
     {
@@ -88,6 +86,13 @@ main(void)
     GPIOPinTypeGPIOOutput(GPIO_PORTN_BASE, GPIO_PIN_0);
     GPIOPinTypeGPIOInput(GPIO_PORTJ_BASE, GPIO_PIN_0);
     GPIOPadConfigSet(GPIO_PORTJ_BASE, GPIO_PIN_0, GPIO_STRENGTH_2MA, GPIO_PIN_TYPE_STD_WPU);
+}
+
+ int
+main(void)
+{    
+    //algumas inicializacoes
+    prepare();
     
     uint32_t timeAux = 0;
     uint32_t sw_1 = 0;

@@ -2515,6 +2515,20 @@
         "scope": "std"
       },
       {
+        "ID": "c:@N@std@F@operator^=#&$@N@std@S@_Iosb>#I@E@_Fmtflags#S1_#",
+        "What": "FunctionDecl",
+        "defdec": "Def",
+        "display": "ios_base::_Fmtflags & operator^=(ios_base::_Fmtflags &, ios_base::_Fmtflags)",
+        "location": {
+          "column": "1",
+          "line": "518",
+          "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\cpp\\xiosbase"
+        },
+        "name": "operator^=",
+        "origin": "system_include",
+        "scope": "std"
+      },
+      {
         "ID": "c:@N@std@F@operator~#$@N@std@S@_Iosb>#I@E@_Fmtflags#",
         "What": "FunctionDecl",
         "defdec": "Def",
@@ -2599,13 +2613,13 @@
         "scope": "std"
       },
       {
-        "ID": "c:@N@std@F@operator^=#&$@N@std@S@_Iosb>#I@E@_Fmtflags#S1_#",
+        "ID": "c:@N@std@F@operator^=#&$@N@std@S@_Iosb>#I@E@_Iostate#S1_#",
         "What": "FunctionDecl",
         "defdec": "Def",
-        "display": "ios_base::_Fmtflags & operator^=(ios_base::_Fmtflags &, ios_base::_Fmtflags)",
+        "display": "ios_base::_Iostate & operator^=(ios_base::_Iostate &, ios_base::_Iostate)",
         "location": {
           "column": "1",
-          "line": "518",
+          "line": "519",
           "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\cpp\\xiosbase"
         },
         "name": "operator^=",
@@ -2697,13 +2711,13 @@
         "scope": "std"
       },
       {
-        "ID": "c:@N@std@F@operator^=#&$@N@std@S@_Iosb>#I@E@_Iostate#S1_#",
+        "ID": "c:@N@std@F@operator^=#&$@N@std@S@_Iosb>#I@E@_Openmode#S1_#",
         "What": "FunctionDecl",
         "defdec": "Def",
-        "display": "ios_base::_Iostate & operator^=(ios_base::_Iostate &, ios_base::_Iostate)",
+        "display": "ios_base::_Openmode & operator^=(ios_base::_Openmode &, ios_base::_Openmode)",
         "location": {
           "column": "1",
-          "line": "519",
+          "line": "520",
           "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\cpp\\xiosbase"
         },
         "name": "operator^=",
@@ -2795,13 +2809,13 @@
         "scope": "std"
       },
       {
-        "ID": "c:@N@std@F@operator^=#&$@N@std@S@_Iosb>#I@E@_Openmode#S1_#",
+        "ID": "c:@N@std@F@operator^=#&$@N@std@S@_Iosb>#I@E@_Seekdir#S1_#",
         "What": "FunctionDecl",
         "defdec": "Def",
-        "display": "ios_base::_Openmode & operator^=(ios_base::_Openmode &, ios_base::_Openmode)",
+        "display": "ios_base::_Seekdir & operator^=(ios_base::_Seekdir &, ios_base::_Seekdir)",
         "location": {
           "column": "1",
-          "line": "520",
+          "line": "521",
           "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\cpp\\xiosbase"
         },
         "name": "operator^=",
@@ -2889,20 +2903,6 @@
           "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\cpp\\xiosbase"
         },
         "name": "operator&=",
-        "origin": "system_include",
-        "scope": "std"
-      },
-      {
-        "ID": "c:@N@std@F@operator^=#&$@N@std@S@_Iosb>#I@E@_Seekdir#S1_#",
-        "What": "FunctionDecl",
-        "defdec": "Def",
-        "display": "ios_base::_Seekdir & operator^=(ios_base::_Seekdir &, ios_base::_Seekdir)",
-        "location": {
-          "column": "1",
-          "line": "521",
-          "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\cpp\\xiosbase"
-        },
-        "name": "operator^=",
         "origin": "system_include",
         "scope": "std"
       }
@@ -77945,13 +77945,27 @@
     "scope": null
   },
   {
+    "ID": "c:@F@prepare#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void prepare(void)",
+    "location": {
+      "column": "6",
+      "line": "72",
+      "path": "C:\\Users\\azoli\\Documents\\UTFPR\\mariaAzolin_ELF74\\Lab2\\src\\blinky.c"
+    },
+    "name": "prepare",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main#",
     "What": "Function",
     "defdec": "Def",
     "display": "int main(void)",
     "location": {
       "column": "1",
-      "line": "73",
+      "line": "92",
       "path": "C:\\Users\\azoli\\Documents\\UTFPR\\mariaAzolin_ELF74\\Lab2\\src\\blinky.c"
     },
     "name": "main",
@@ -77959,13 +77973,13 @@
     "scope": null
   },
   {
-    "ID": "c:blinky.c@2665@F@main#@timeAux",
+    "ID": "c:blinky.c@2736@F@main#@timeAux",
     "What": "Variable",
     "defdec": "Def",
     "display": "timeAux",
     "location": {
       "column": "14",
-      "line": "92",
+      "line": "97",
       "path": "C:\\Users\\azoli\\Documents\\UTFPR\\mariaAzolin_ELF74\\Lab2\\src\\blinky.c"
     },
     "name": "timeAux",
@@ -77973,13 +77987,13 @@
     "scope": null
   },
   {
-    "ID": "c:blinky.c@2692@F@main#@sw_1",
+    "ID": "c:blinky.c@2763@F@main#@sw_1",
     "What": "Variable",
     "defdec": "Def",
     "display": "sw_1",
     "location": {
       "column": "14",
-      "line": "93",
+      "line": "98",
       "path": "C:\\Users\\azoli\\Documents\\UTFPR\\mariaAzolin_ELF74\\Lab2\\src\\blinky.c"
     },
     "name": "sw_1",
@@ -77987,13 +78001,13 @@
     "scope": null
   },
   {
-    "ID": "c:blinky.c@3549@F@main#@reaction",
+    "ID": "c:blinky.c@3620@F@main#@reaction",
     "What": "Variable",
     "defdec": "Def",
     "display": "reaction",
     "location": {
       "column": "14",
-      "line": "124",
+      "line": "129",
       "path": "C:\\Users\\azoli\\Documents\\UTFPR\\mariaAzolin_ELF74\\Lab2\\src\\blinky.c"
     },
     "name": "reaction",
@@ -78001,13 +78015,13 @@
     "scope": null
   },
   {
-    "ID": "c:blinky.c@3621@F@main#@reactionInSeconds",
+    "ID": "c:blinky.c@3692@F@main#@reactionInSeconds",
     "What": "Variable",
     "defdec": "Def",
     "display": "reactionInSeconds",
     "location": {
       "column": "11",
-      "line": "125",
+      "line": "130",
       "path": "C:\\Users\\azoli\\Documents\\UTFPR\\mariaAzolin_ELF74\\Lab2\\src\\blinky.c"
     },
     "name": "reactionInSeconds",
