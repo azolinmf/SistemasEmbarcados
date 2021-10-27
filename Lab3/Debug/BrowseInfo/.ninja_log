@@ -1,0 +1,24 @@
+# ninja log v5
+4	786	6570019630000000	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/main.xcl	781e641c42bb0980
+796	1065	6570019637181593	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/main.pbi	1da2e6da62fdf55
+1072	1350	6570019639994441	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbd	d14915c7bad4dd89
+1356	3906	6570019664211124	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbw	61be1edb9495455e
+1	995	6570030274035753	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/main.pbi	1da2e6da62fdf55
+1003	1220	6570030276382252	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbd	d14915c7bad4dd89
+1	2006	6570030375931069	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbw	61be1edb9495455e
+2	426	6570031230000000	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/src/main.xcl	710291b59b58eece
+436	1285	6570031246889839	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/src/main.pbi	c1a58a1af2f2ecfc
+1295	1516	6570031249233233	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbd	9fd121744d9b0257
+1528	4157	6570031274382631	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbw	61be1edb9495455e
+1	820	6570040158000404	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/src/main.pbi	c1a58a1af2f2ecfc
+826	1004	6570040159692340	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbd	9fd121744d9b0257
+1010	3120	6570040178922660	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbw	61be1edb9495455e
+2	755	6570041414382074	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/src/main.pbi	c1a58a1af2f2ecfc
+760	890	6570041415786826	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbd	9fd121744d9b0257
+2	2727	6570041534173602	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbw	61be1edb9495455e
+2	839	6570042429528714	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/src/main.pbi	c1a58a1af2f2ecfc
+845	990	6570042430937353	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbd	9fd121744d9b0257
+998	2909	6570042448969617	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbw	61be1edb9495455e
+2	1060	6570047694600422	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/src/main.pbi	c1a58a1af2f2ecfc
+1066	1207	6570047696013359	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbd	9fd121744d9b0257
+1213	3026	6570047713199887	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Lab3/Debug/BrowseInfo/Lab3.pbw	61be1edb9495455e

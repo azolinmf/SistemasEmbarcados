@@ -52,10 +52,10 @@
     <LmiFtdiDriver>
         <LMIFTDIserialNo>0F00E721</LMIFTDIserialNo>
         <LMIFTDIfoundProbes />
-        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
-        <CStepIntDis>_ 0</CStepIntDis>
         <LmiFtdiResetStyle>0</LmiFtdiResetStyle>
         <LmiFtdiResetStrategy>0</LmiFtdiResetStrategy>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <CStepIntDis>_ 0</CStepIntDis>
     </LmiFtdiDriver>
     <ArmDriver>
         <EnableCache>0</EnableCache>
@@ -77,12 +77,6 @@
         <Enabled>0</Enabled>
         <ShowSource>0</ShowSource>
     </Trace2>
-    <DisassembleMode>
-        <mode>0</mode>
-    </DisassembleMode>
-    <Breakpoints2>
-        <Count>0</Count>
-    </Breakpoints2>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -92,6 +86,18 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
     <Aliases>
         <A0>_ "C:\Users\azoli\Downloads\TivaWare_C_Series-2.2.0.295_for_Embarcados\TivaWare_C_Series-2.2.0.295\driverlib\gpio.c" ""</A0>
         <A1>_ "C:\Users\azoli\Downloads\TivaWare_C_Series-2.2.0.295_for_Embarcados\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.c" ""</A1>
@@ -99,10 +105,4 @@
         <Count>3</Count>
         <SuppressDialog>1</SuppressDialog>
     </Aliases>
-    <CallStackLog>
-        <Enabled>0</Enabled>
-    </CallStackLog>
-    <CallStackStripe>
-        <ShowTiming>1</ShowTiming>
-    </CallStackStripe>
 </settings>
