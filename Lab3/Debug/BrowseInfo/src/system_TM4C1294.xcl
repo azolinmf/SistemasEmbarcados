@@ -1,13 +1,13 @@
-"C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab4\src\main.c"
+"C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab4\src\system_TM4C1294.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab3\Debug\BrowseInfo\src\main.pbi.dep
+C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab3\Debug\BrowseInfo\src\system_TM4C1294.pbi.dep
 -o
-C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab3\Debug\BrowseInfo\src\main.pbi
+C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab3\Debug\BrowseInfo\src\system_TM4C1294.pbi
 -I
 C:\Users\azoli\Documents\UTFPR\mariaAzolin_ELF74\Lab4\src
 -I
