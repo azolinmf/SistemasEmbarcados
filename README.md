@@ -12,3 +12,4 @@ Essas variáveis são declaradas assim para sinalizar ao compilador que ele não
 
 ![tabela 1](https://user-images.githubusercontent.com/49958403/142777095-51775021-5020-47d7-9cdb-4bc6c737fd0c.png)
 
+![diagrama](https://user-images.githubusercontent.com/49958403/142777681-886f950a-45c7-4c5a-b909-6a81180b15f5.png)
