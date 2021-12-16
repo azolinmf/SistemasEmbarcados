@@ -40,3 +40,7 @@ Os períodos das 3 threads podem ser alterados por conta do mutex. Isso faz com 
 * Idem acima, mas com herança de prioridade.
 
 Idem ao caso acima, porém T2 pode aumentar seu período caso T3 esteja executando, pela herança de prioridade do mutex. O efeito visual é muito parecido.
+
+## Projeto final
+
+Link do vídeo não listado no youtube: https://youtu.be/iJ3pnjsyCFw
