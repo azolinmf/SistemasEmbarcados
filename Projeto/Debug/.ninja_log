@@ -1,0 +1,6 @@
+# ninja log v5
+1	107	6613215918832375	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Projeto/Debug/Obj/tx_initialize_low_level.o	1c4adc08ebb654ed
+125	193	6613215919767180	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Projeto/Debug/Obj/startup_TM4C1294.o	173eedc940eb0bdd
+206	1261	6613215930280301	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Projeto/Debug/Obj/main.o	298c42edbff8e432
+1281	1518	6613215932979892	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Projeto/Debug/Obj/system_TM4C1294.o	9f849960ca9b66dd
+1544	2826	6613215945837235	C:/Users/azoli/Documents/UTFPR/mariaAzolin_ELF74/Projeto/Debug/Exe/Projeto.out	b726db289718ae5b

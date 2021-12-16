@@ -37,7 +37,7 @@ void turnOff(){
 uint8_t schedulerMode(){
   // Escalonamento por time slice de 50ms. Todas as tarefas
   // com mesma prioridade
-  return A;
+  //return A;
   
   // Escalonamento sem time slice e sem preempcao. Prioridades estabelecidas 
   // no passo 3. A preempcao pode ser evitada com o
@@ -53,7 +53,7 @@ uint8_t schedulerMode(){
   //return D;
 
   // Idem acima, mas com herança de prioridade
-  //return E;
+  return E;
 }
 
 uint8_t loop_wait_led(uint8_t led, uint32_t numLoops){  
